@@ -1,6 +1,6 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PrisonLifeHubShitV2", "Sentinel")
+local Window = Library.CreateLib("PrisonLifeHubV2", "Sentinel")
 local lp = game.Players.LocalPlayer
 local cr = lp.Character
 local healthreq
@@ -349,9 +349,10 @@ ThemeLoader:NewLabel("Press button below to reload Script/Theme")
 
 ThemeLoader:NewButton("Reload Script for theme", "Reload's the script", function()
  if _G.Settings.Theme == 1 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/Sentinal.lua"))()
+ elseif _G.Settings.Theme == 2 then
 
- end   
- 
+    end   
  end)
 
 
