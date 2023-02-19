@@ -343,7 +343,7 @@ ThemeLoader:NewButton("Reload Script for theme", "Reload's the script", function
  if _G.Settings.Theme == 1 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/Sentinal.lua"))()
 elseif _G.Settings.Theme == 2 then
-     
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/DarkTheme.lua"))()  
 elseif _G.Settings.Theme == 3 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/Synapse.lua"))()
  end
