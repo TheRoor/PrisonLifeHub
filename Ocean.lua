@@ -346,6 +346,8 @@ elseif _G.Settings.Theme == 2 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/DarkTheme.lua"))()
 elseif _G.Settings.Theme == 3 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/Synapse.lua"))()
+elseif  _G.Settings.Theme == 4 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRoor/PrisonLifeHub/main/Ocean.lua"))()
  end
       
  end)
